@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: purple;
+            color: white;
+            font-family: 'Poppins',sans-serif;
+        }
+        nav{
+            display:flex;
+            justify-content:space-around;
+            align-items: center;
+            height:80px;
+            background-color:rgb(16, 16, 61);
+
+        }
+        nav ul{
+            display:flex;
+            justify-content:center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: red;
+        }
+        .left{
+            font-size:1.5rem;
+        }
+        .firstsection{
+            display:flex;
+            justify-content: space-around;
+            margin:30px 0;
+
+        }
+        .firstsection > div{
+            width:30%;
+
+        }
+        
+        .leftsection{
+            font-size:3rem;
+            
+        }
+        .rightsection img{
+            width:120%;
+            border-radius:  50px;       
+        }
+        .purple{
+            color:Black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <div class="container">
+        <h1>My Achievements</h1>
+        <div class="left-section"><br>
+            <h2><span class="blue">PROFICIENCY</span></h2>
+            <span id="element"></span>
+            <ol>
+                <li>HTML</li><br>
+                <li>CSS</li><br>
+                <li>JavaScript</li><br>
+                <li>Bootstrap</li><br>
+                <li>PHP</li><br>
+                <li>SQL</li><br>
+                <li>C</li><br>
+                <li>C++</li><br>
+                <li>Java</li>
+            </ol>
+        </div>
+        <div class="right-section"><br>
+            <h2>CERTIFICATIONS</h2>
+            <span id="element"></span>
+            <ol>
+                <li>
+                    <h3>DSA GFG Certification</h3>
+                    <ul>
+                        <li>Learned a lot about Data Structures and Algorithms
+                            in C++ and Java.Gave various contests,quizzes helping gain
+                            both theoretical and practical understanding.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>NPTEL MOOC </h3>
+                    <ul>
+                        <li>Helped clear me fundamentals of the C programming language
+                            and scored 60% in the final proctored exam
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Internshala Certification</h3>
+                    <ul>
+                        <li>Learnt a lot about front-end web development frameworks
+                            [HTML,CSS,Javascript,Bootstrap] and server-side scripting
+                            framework[PHP]. Created a web application which helps users to
+                            register and feedback for performance of a sports center.
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+    </div>
+    </body>
+    </html>

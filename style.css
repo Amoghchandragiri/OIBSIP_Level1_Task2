@@ -1,0 +1,94 @@
+
+.container {
+    max-width: 800px;
+    margin: 10px auto;
+    background-color: green;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+    width: 50%;
+    float: left;
+}
+
+.right-section {
+    width: 50%;
+    float: left;
+}
+
+.left-section ul, .right-section ol {
+    list-style-type: none;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #3498db;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+.github-link {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.github-link:hover {
+    background-color: #555;
+}
+.download-link {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.download-link:hover {
+    background-color: #45a049;
+}
